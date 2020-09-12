@@ -13,12 +13,10 @@ class Bill {
     
     var total: Double?
     var splitNumber: Int?
-    var splitValue: Double?
     var tip: Int?
     
-    init(total: Double, splitNumber: Int, splitValue: Double, tip: Int) {
+    init(total: Double, splitNumber: Int, tip: Int) {
         self.total = total
-        self.splitValue = splitValue
         self.splitNumber = splitNumber
         self.tip = tip
     }
